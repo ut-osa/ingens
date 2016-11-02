@@ -1,0 +1,7 @@
+menu "OSA"
+
+config OSA
+	tristate "Enable Hugepage dump"
+	default y
+
+endmenu

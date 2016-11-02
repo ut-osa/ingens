@@ -11,7 +11,7 @@ http://www.cs.utexas.edu/~yjkwon/pdf/kwon16osdi-ingens.pdf
 
 ingens.diff : Kernel (based on kernel v4.3.0) patches of Ingens.
 
-/scripts : experiement script (To be uploaded)
+/scripts : experiement script
 
 /programs : Various programs and tools for experiments
 
@@ -97,4 +97,4 @@ Youngjin Kwon (yjkwon@cs.utexas.edu)
 Hangchen Yu (hyu@cs.utexas.edu)
 
 ## License
-TBD
+GPLv2 License

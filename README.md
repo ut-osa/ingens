@@ -7,15 +7,15 @@ http://www.cs.utexas.edu/~yjkwon/pdf/kwon16osdi-ingens.pdf
 
 ## Components
 
-/linux-4.3.0-ingens : Ingens Linux kernel.
+linux-4.3.0-ingens : Ingens Linux kernel
 
-ingens.diff : Kernel (based on kernel v4.3.0) patches of Ingens.
+ingens.diff : Kernel (based on v4.3.0) patches of Ingens
 
-/scripts : experiement script
+scripts : experiment scripts
 
-/programs : Various programs and tools for experiments
+programs : Various programs and tools for experiments
 
-/benchmarks : some benchmarks used in the paper (To be uploaded)
+benchmarks : some benchmarks used in the paper (To be uploaded)
 
 ## Parameters
 

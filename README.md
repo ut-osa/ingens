@@ -17,6 +17,14 @@ programs : Various programs and tools for experiments
 
 benchmarks : some benchmarks used in the paper (To be uploaded)
 
+## Ingens kernel build.
+
+A example of configuration file is "memory.config" in linux-4.3-ingens.
+
+Ingens uses linux idle page tracking. Make sure 
+CONFIG_IDLE_PAGE_TRACKING=y
+in your kbuild configuration.
+
 ## Parameters
 
 List of configurable policy parameters 

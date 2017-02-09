@@ -1,7 +1,7 @@
 menu "OSA"
 
 config OSA
-	tristate "Enable Hugepage dump"
+	tristate "Enable Ingens support."
 	default y
 
 endmenu

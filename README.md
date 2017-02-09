@@ -19,9 +19,12 @@ benchmarks : some benchmarks used in the paper (To be uploaded)
 
 ## Ingens kernel build.
 
-A example of configuration file is "memory.config" in linux-4.3-ingens.
+An example of configuration file is "memory.config" in linux-4.3-ingens.
 
-Ingens uses linux idle page tracking. Make sure 
+Ingens uses linux idle page tracking. 
+(http://lxr.free-electrons.com/source/Documentation/vm/idle_page_tracking.txt)
+
+Make sure to set
 CONFIG_IDLE_PAGE_TRACKING=y
 in your kbuild configuration.
 
